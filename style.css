@@ -3,7 +3,7 @@
 
 nav {
     background-color: red;
-    height: 20%;
+    height: 30px;
     padding: 10px 40px;
     font-family: "Dancing Script", sans-serif;
     font-size: 30px;
@@ -16,10 +16,11 @@ p1 {
     background-color: aquamarine;
     margin-top: 20px;
     margin-bottom: 20px;
+    height: 100px;
     font-family: "Dosis", sans-serif;
     font-size: 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 p2 {
@@ -27,8 +28,9 @@ p2 {
     font-family: "Dosis", sans-serif;
     margin-top: 20px;
     font-size: 20px;
+    height: 100px;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -37,9 +39,17 @@ img {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
     background-color: black;
     color: white;
+    font-family: "Dosis", sans-serif;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    height: 30px;
+    display: flex;
+    align-items: center;
 }
